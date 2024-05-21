@@ -22,6 +22,7 @@ http.createServer(function (req, res) {
         <h1>${process.env.MY_VARIABLE}</h1>
         <h2>${randomQuote.quote}</h2>    
         <h3>Autore: ${randomQuote.author}</h3>
+        <button onclick="location.reload();">Clicca quì per un'altra</button>
     </body>
     </html>
    `);
